@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: CHAT-SERVICE
+    config:
+        import: optional:configserver:https://fleetnav-config-server-0-0-2.onrender.com
